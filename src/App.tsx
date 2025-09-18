@@ -46,7 +46,7 @@ function App() {
         process: "Ish jarayonimiz",
         results: "Natijalar",
         why: "Nega biz?",
-        'doctors-order-bot': "Buyurtma berish"
+        'doctors-order-bot': "Shifokorlar uchun buyurtma berish"
       },
       hero: {
         title: "CleanCorrect – Zamonaviy Tish Tekislash",
@@ -134,7 +134,7 @@ function App() {
         process: "Наш рабочий процесс",
         results: "Результаты",
         why: "Почему мы?",
-        'doctors-order-bot': "Сделать заказ"
+        'doctors-order-bot': "Сделать заказ для врачей"
       },
       hero: {
         title: "CleanCorrect – Современное Выравнивание Зубов",
@@ -248,7 +248,7 @@ function App() {
                   href={`#${key}`}
                   className={
                     isPrimaryCta
-                      ? "cta-attention cta-attention--nav px-4 py-2 shadow"
+                      ? "hidden lg:inline-block cta-attention cta-attention--nav px-4 py-2 shadow"
                       : "text-gray-600 hover:text-[#3D85AA] transition-all duration-300 hover-scale"
                   }
                   style={{ animationDelay: `${index * 100}ms` }}
@@ -263,9 +263,10 @@ function App() {
             {/* Mobile Buyurtma CTA (always visible on small screens) */}
             <a
               href="#doctors-order-bot"
-              className="lg:hidden cta-attention cta-attention--nav px-3 py-1 text-sm shadow"
+              className="lg:hidden cta-attention cta-attention--nav rounded-full px-3.5 py-1.5 text-xs sm:text-sm shadow whitespace-nowrap"
+              aria-label={content[language].nav['doctors-order-bot']}
             >
-              {content[language].nav['doctors-order-bot']}
+              {language === 'uz' ? 'Buyurtma berish' : 'Заказать'}
             </a>
             <button
               onClick={() => setLanguage('uz')}
