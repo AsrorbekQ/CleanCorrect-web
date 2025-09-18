@@ -92,6 +92,11 @@ html {
   font-weight: 600;
 }
 
+/* Prevent long CTA text from wrapping on tiny screens */
+.cta-attention--nav {
+  white-space: nowrap;
+}
+
 /* Generic elevated card style for white blocks */
 .card {
   background-color: #ffffff;
