@@ -103,7 +103,7 @@ function App() {
         title: "Nega biz?",
         items: [
           "Davolash rejasini tajribali ortodontlar tuzadi",
-          "Biz o'zimiz ishlab chiqaramiz, bu bizga elaynerlarni tez yetkazishga va yo'qolgan taqdirda tez tiklashga yordam beradi",
+          "Biz o'zimiz ishlab chiqaramiz, bu elaynerlarni tez yetkazishga va yo'qolgan taqdirda tez tiklashga yordam beradi",
           "Material: uch qavatli poliuretan."
         ],
         details: "Deformatsiyaga chidamli, tishlarga ortiqcha bosim bermaydi. Breket tizimidagi nikel-titan sim kabi – yumshoq va uzoq vaqt davomida mo'tadil kuch bilan ishlaydi."
