@@ -45,73 +45,79 @@ function App() {
         services: "Xizmatlar",
         process: "Ish jarayonimiz",
         results: "Natijalar",
+        pricing: "Narxlar",
         why: "Nega biz?",
         'doctors-order-bot': "Shifokorlar uchun buyurtma berish"
       },
       hero: {
-        title: "CleanCorrect – Zamonaviy Tish Tekislash",
-        subtitle: "Shaffof, qulay va samarali davolash usuli",
+        title: "Elayner Toshkent | CleanCorrect – Zamonaviy Tish Tekislash O'zbekistonda",
+        subtitle: "Shaffof elaynerlar bilan tish tekislash - qulay va samarali davolash usuli Toshkentda",
         cta: "Maslahat olish"
       },
       advantages: {
-        title: "Elaynerlarning afzalliklari nimada?",
+        title: "Toshkentda Elaynerlarning afzalliklari nimada?",
         items: [
           {
-            title: "Shaffof",
-            description: "Deyarli ko'rinmaydi, metall simlar va qavslar yo'q"
+            title: "Shaffof elaynerlar",
+            description: "Deyarli ko'rinmaydi, metall simlar va qavslar yo'q. Shaffof qavslar kabi ishlaydi"
           },
           {
-            title: "Qulay",
-            description: "Og'iz shilliq qavatini shikastlamaydi, kiyish oson"
+            title: "Qulay tish davolash",
+            description: "Og'iz shilliq qavatini shikastlamaydi, kiyish oson. Ortodontik davolash uchun ideal"
           },
           {
             title: "Olib tashlash mumkin",
-            description: "Ovqatlanish va tishlarni parvarish qilishda yechish qulay"
+            description: "Ovqatlanish va tishlarni parvarish qilishda yechish qulay. Elayner davolash jarayonida qulaylik"
           }
         ]
       },
       mission: {
-        title: "Maqsadimiz",
-        description: "Odamlarga tekis va chiroyli tishlar ulashish. Buni sifatli va maqbul narxda amalga oshiramiz."
+        title: "Maqsadimiz - Toshkent va O'zbekistonda Elayner Xizmatlari",
+        description: "Odamlarga tekis va chiroyli tishlar ulashish. Toshkentda elayner bilan tish tekislash xizmatlarini sifatli va maqbul narxda amalga oshiramiz."
       },
       process: {
         title: "Bizning ish jarayonimiz"
       },
       results: {
-        title: "Elaynerlar bilan erishilgan natijalar",
+        title: "Toshkentda Elaynerlar bilan erishilgan natijalar - Tish Tekislash",
         before: "Avval",
         after: "Keyin"
       },
       services: {
-        title: "Biz nima taklif qilamiz?",
+        title: "Toshkentda Elayner Xizmatlari - Biz nima taklif qilamiz?",
         patients: {
-          title: "Bemorlar uchun:",
+          title: "Bemorlar uchun elayner xizmatlari:",
           items: [
-            "Elayner va breketlar bilan davolash",
-            "Tish-qo'shiq tizimi nuqsonlarini to'g'rilash"
+            "Elayner va breketlar bilan tish tekislash Toshkentda",
+            "Tish-qo'shiq tizimi nuqsonlarini to'g'rilash O'zbekistonda"
           ]
         },
         doctors: {
-          title: "Shifokorlar uchun:",
+          title: "Shifokorlar uchun elayner yetkazib berish:",
           items: [
-            "Elayner yetkazib berish",
-            "Siz davolash jarayonini nazorat qilasiz. To'liq diagnostika va davolash rejasini biz – ortodontlar tuzamiz."
+            "Elayner yetkazib berish Toshkent va O'zbekiston bo'ylab",
+            "Siz davolash jarayonini nazorat qilasiz. To'liq diagnostika va davolash rejasini biz – tajribali ortodontlar tuzamiz."
           ]
         }
       },
       why: {
-        title: "Nega biz?",
+        title: "Nega Toshkentda CleanCorrect elaynerlarini tanlash kerak?",
         items: [
-          "Davolash rejasini tajribali ortodontlar tuzadi",
-          "Biz o'zimiz ishlab chiqaramiz, bu elaynerlarni tez yetkazishga va yo'qolgan taqdirda tez tiklashga yordam beradi",
-          "Material: uch qavatli poliuretan."
+          "Davolash rejasini tajribali ortodontlar tuzadi Toshkentda",
+          "Biz o'zimiz ishlab chiqaramiz, bu elaynerlarni tez yetkazishga va yo'qolgan taqdirda tez tiklashga yordam beradi O'zbekistonda",
+          "Material: uch qavatli poliuretan - eng zamonaviy elayner texnologiyasi."
         ],
-        details: "Deformatsiyaga chidamli, tishlarga ortiqcha bosim bermaydi. Breket tizimidagi nikel-titan sim kabi – yumshoq va uzoq vaqt davomida mo'tadil kuch bilan ishlaydi."
+        details: "Deformatsiyaga chidamli, tishlarga ortiqcha bosim bermaydi. Breket tizimidagi nikel-titan sim kabi – yumshoq va uzoq vaqt davomida mo'tadil kuch bilan ishlaydi. Toshkent va O'zbekiston bo'ylab eng sifatli elayner xizmatlari."
       },
       contact: {
         title: "Bog'lanish",
         telegram: "Telegram orqali yozing",
         call: "Qo'ng'iroq qiling"
+      },
+      pricing: {
+        title: "Elayner Narxi Toshkentda - Maqbul Baholar",
+        description: "Toshkent va O'zbekistonda elayner narxi maqbul. Tish tekislash narxi va elayner davolash bahosi haqida batafsil ma'lumot oling.",
+        cta: "Narxni bilish"
       },
       orderBot: {
         badge: "Shifokorlar uchun",
@@ -133,12 +139,13 @@ function App() {
         services: "Услуги",
         process: "Наш рабочий процесс",
         results: "Результаты",
+        pricing: "Цены",
         why: "Почему мы?",
         'doctors-order-bot': "Сделать заказ для врачей"
       },
       hero: {
-        title: "CleanCorrect – Современное Выравнивание Зубов",
-        subtitle: "Прозрачный, удобный и эффективный метод лечения",
+        title: "Элайнеры Ташкент | CleanCorrect – Современное Выравнивание Зубов в Узбекистане",
+        subtitle: "Прозрачные элайнеры для выравнивания зубов - удобный и эффективный метод лечения в Ташкенте",
         cta: "Получить консультацию"
       },
       advantages: {
@@ -200,6 +207,11 @@ function App() {
         title: "Контакты",
         telegram: "Написать в Telegram",
         call: "Позвонить"
+      },
+      pricing: {
+        title: "Цена элайнеров в Ташкенте - Доступные цены",
+        description: "Цена элайнеров в Ташкенте и Узбекистане доступная. Узнайте подробнее о стоимости выравнивания зубов и цене лечения элайнерами.",
+        cta: "Узнать цену"
       },
       orderBot: {
         badge: "Для врачей",
@@ -517,6 +529,100 @@ function App() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Section */}
+      <section 
+        id="pricing" 
+        ref={el => sectionRefs.current['pricing'] = el}
+        className={`py-16 bg-gray-50 section-fade-in ${visibleSections.has('pricing') ? 'visible' : ''}`}
+      >
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-[#3D85AA] text-center mb-12">
+            {content[language].pricing.title}
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-xl text-gray-700 text-center mb-8">
+              {content[language].pricing.description}
+            </p>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="card p-8 hover-scale transition-all duration-300">
+                <h3 className="text-2xl font-semibold mb-6 text-[#3D85AA]">
+                  {language === 'uz' ? 'Elayner Narxi Toshkentda' : 'Цена элайнеров в Ташкенте'}
+                </h3>
+                <ul className="space-y-4">
+                  <li className="flex items-baseline">
+                    <span className="w-2 h-2 bg-[#3D85AA] rounded-full mr-3" />
+                    <span className="text-gray-700">
+                      {language === 'uz' 
+                        ? 'Tish tekislash narxi maqbul va shaffof' 
+                        : 'Цена выравнивания зубов доступная и прозрачная'
+                      }
+                    </span>
+                  </li>
+                  <li className="flex items-baseline">
+                    <span className="w-2 h-2 bg-[#3D85AA] rounded-full mr-3" />
+                    <span className="text-gray-700">
+                      {language === 'uz' 
+                        ? 'Ortodontik davolash bahosi raqobatbardosh' 
+                        : 'Стоимость ортодонтического лечения конкурентоспособная'
+                      }
+                    </span>
+                  </li>
+                  <li className="flex items-baseline">
+                    <span className="w-2 h-2 bg-[#3D85AA] rounded-full mr-3" />
+                    <span className="text-gray-700">
+                      {language === 'uz' 
+                        ? 'Shaffof qavslar narxi O\'zbekistonda eng yaxshi' 
+                        : 'Цена прозрачных кап в Узбекистане лучшая'
+                      }
+                    </span>
+                  </li>
+                </ul>
+                <a
+                  href="https://t.me/AzamatKadirovv"
+                  className="inline-block mt-6 bg-[#3D85AA] text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300 hover-scale"
+                >
+                  {content[language].pricing.cta}
+                </a>
+              </div>
+              <div className="card p-8 hover-scale transition-all duration-300">
+                <h3 className="text-2xl font-semibold mb-6 text-[#3D85AA]">
+                  {language === 'uz' ? 'Nima uchun bizning narxlar yaxshi?' : 'Почему наши цены хорошие?'}
+                </h3>
+                <ul className="space-y-4">
+                  <li className="flex items-baseline">
+                    <span className="w-2 h-2 bg-[#3D85AA] rounded-full mr-3" />
+                    <span className="text-gray-700">
+                      {language === 'uz' 
+                        ? 'O\'zimiz ishlab chiqaramiz - vositachilar yo\'q' 
+                        : 'Производим сами - нет посредников'
+                      }
+                    </span>
+                  </li>
+                  <li className="flex items-baseline">
+                    <span className="w-2 h-2 bg-[#3D85AA] rounded-full mr-3" />
+                    <span className="text-gray-700">
+                      {language === 'uz' 
+                        ? 'Tish davolash toshkentda tez va sifatli' 
+                        : 'Лечение зубов в Ташкенте быстро и качественно'
+                      }
+                    </span>
+                  </li>
+                  <li className="flex items-baseline">
+                    <span className="w-2 h-2 bg-[#3D85AA] rounded-full mr-3" />
+                    <span className="text-gray-700">
+                      {language === 'uz' 
+                        ? 'Invisible aligners tashkent - zamonaviy texnologiya' 
+                        : 'Invisible aligners Ташкент - современная технология'
+                      }
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>

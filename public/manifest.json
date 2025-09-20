@@ -1,0 +1,27 @@
+{
+  "name": "CleanCorrect - Elayner Toshkent",
+  "short_name": "CleanCorrect",
+  "description": "Toshkent va O'zbekistonda elayner bilan tish tekislash xizmatlari. Shaffof, qulay va samarali davolash usuli.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3D85AA",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["medical", "health", "dental"],
+  "lang": "uz",
+  "dir": "ltr"
+}
