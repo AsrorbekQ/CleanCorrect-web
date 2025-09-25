@@ -40,7 +40,6 @@ function App() {
   const content = {
     uz: {
       nav: {
-        about: "Elaynerlar haqida",
         advantages: "Afzalliklar",
         services: "Xizmatlar",
         process: "Ish jarayonimiz",
@@ -50,7 +49,7 @@ function App() {
         'doctors-order-bot': "Shifokorlar uchun buyurtma berish"
       },
       hero: {
-        title: "Elayner Toshkent | CleanCorrect – Zamonaviy Tish Tekislash O'zbekistonda",
+        title: "CleanCorrect – Zamonaviy Tish Tekislash",
         subtitle: "Shaffof elaynerlar bilan tish tekislash - qulay va samarali davolash usuli Toshkentda",
         cta: "Maslahat olish"
       },
@@ -134,7 +133,6 @@ function App() {
     },
     ru: {
       nav: {
-        about: "О элайнерах",
         advantages: "Преимущества",
         services: "Услуги",
         process: "Наш рабочий процесс",
